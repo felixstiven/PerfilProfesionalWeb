@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="app.js">
     <title>CV STIVEN FELIX</title>
 </head>
 <body>
@@ -13,12 +14,13 @@
    <section class="inicio" id="inicio">
         <div class="contenido-seccion">
             <header>
-                <div class="nav-bar" onclick="mostrar0cultarmenu()">
+                <div class="nav-bar" onclick="mostrarOcultarmenu()">
                     <i class="fa-solid fa-bars"></i>
                 </div>
                 <nav id="nav" class="nav">
                     <a href="#inicio">Inicio</a>
                     <a href="#sobremi">Sobre mi</a>
+                    <a href="#resumen">Resumen</a>
                     <a href="#habilidades">Habilidades</a>
                     <a href="#contacto">Contacto</a>                  
                 </nav>
@@ -30,41 +32,38 @@
                 <h1>STIVEN FELIX</h1>
                 <H2>CODIFICADOR, DISEÑADOR, PROFESIONAL</H2>
                 <div class="redes">
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
-                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://www.facebook.com/Stiiven.feliix/?locale=es_LA"><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="https://www.instagram.com/stifelxtrader/"><i class="fa-brands fa-square-instagram"></i></a>
                 </div>
             </div>  
             <div class="foto">
-                <img src="stiven.png" alt="">
+                <img src="./imagenes/stiven.png" alt="">
             </div>
         </div>      
-   </section> 
+    </section> 
 
-   <!--SECCION SOBRE MI-->
+<!--SECCION SOBRE MI-->
 <section class="sobremi" id="sobremi">
     <div class="contenido-seccion">
         <h2 class="titulo-seccion">Sobre Mi</h2>
         <h3>Detalles personales</h3>
 
-        <p class="especial">Me dedico a estudiar y producir ideas creativas y originales</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet inventore exercitationem odio voluptatibus, ratione, nesciunt error obcaecati quia excepturi explicabo officiis sint quas! Mollitia consectetur quidem nulla assumenda fuga?</p>
-
+        <p class="especial">Me dedico a estudiar, producir ideas creativas y originales</p>
         <div class="fila">
             <div class="col">
                 <i class="fa-solid fa-user"></i>
                 <span class="titulo-detalle">Perfil</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, veritatis vitae.</p>
+                <p>Desarollador full stack y bakend</p>
             </div>
             <div class="col">
                 <i class="fa-solid fa-location-dot"></i>
                 <span class="titulo-detalle">Ubicacion</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, veritatis vitae.</p>
+                <p>Colombia. Bogota D,C</p>
             </div>
             <div class="col">
                 <i class="fa-solid fa-flag"></i>
                 <span class="titulo-detalle">Intereses</span>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, veritatis vitae.</p>
+                <p>Estudiar, programar, jugar soccer, dedicar tiempo a mi familia.</p>
             </div>
         </div>
     </div>
@@ -72,16 +71,14 @@
 <!--SECCION HABILIDADES-->
 <section class="habilidades" id="habilidades">
     <div class="contenido-seccion">
-        <h2 class="titulo-seccion">Mis hanilidades</h2>
+        <h2 class="titulo-seccion">Mis habilidades</h2>
         <h3>Me especializo</h3>
-
         <div class="fila">
             <div class="col">
                 <span>HTML/CSS</span>
                 <div class="cont-barra">
                     <div class="barra" id="html">
                         <!--MEDIANTE JAVASCRIPT LUEGO GENERAREMOS 17 BARRITAS CON CALSE e-->
-                        <div class="e"></div>
                     </div>
                     <span>98%</span>
                 </div>      
@@ -91,7 +88,6 @@
                 <div class="cont-barra">
                     <div class="barra" id="javascript">
                         <!--MEDIANTE JAVASCRIPT LUEGO GENERAREMOS 17 BARRITAS CON CALSE e-->
-                        <div class="e"></div>
                     </div>
                     <span>70%</span>
                 </div>      
@@ -103,7 +99,6 @@
                 <div class="cont-barra">
                     <div class="barra" id="phyton">
                         <!--MEDIANTE JAVASCRIPT LUEGO GENERAREMOS 17 BARRITAS CON CALSE e-->
-                        <div class="e"></div>
                     </div>
                     <span>50%</span>
                 </div>      
@@ -113,7 +108,6 @@
                 <div class="cont-barra">
                     <div class="barra" id="java">
                         <!--MEDIANTE JAVASCRIPT LUEGO GENERAREMOS 17 BARRITAS CON CALSE e-->
-                        <div class="e"></div>
                     </div>
                     <span>80%</span>
                 </div>      
@@ -125,17 +119,15 @@
                 <div class="cont-barra">
                     <div class="barra" id="php">
                         <!--MEDIANTE JAVASCRIPT LUEGO GENERAREMOS 17 BARRITAS CON CALSE e-->
-                        <div class="e"></div>
                     </div>
                     <span>60%</span>
                 </div>      
             </div>
             <div class="col">
-                <span>ILUSTRATOR</span>
+                <span>GITHUB</span>
                 <div class="cont-barra">
-                    <div class="barra" id="ilustrator">
+                    <div class="barra" id="github">
                         <!--MEDIANTE JAVASCRIPT LUEGO GENERAREMOS 17 BARRITAS CON CALSE e-->
-                        <div class="e"></div>
                     </div>
                     <span>70%</span>
                 </div>      
@@ -155,10 +147,10 @@
                 <table>
                     <tr>
                         <td class="datos">
-                            <h3>2023 - 2024</h3>
+                            <h3>2024</h3>
                         </td>
                         <td rowspan="2" class="description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus natus adipisci dolore voluptates ipsum atque similique veritatis.
+                            bootcamp intensivo desarollo web full stack. programando con lenguaje html,css,javascript de nivel basico a nivel avanzado. manejo de herraminetas  como github, ndjoect. 
                         </td>
                     </tr>
                     <tr>
@@ -175,7 +167,7 @@
                             <h3>2021 - 2023</h3>
                         </td>
                         <td rowspan="2" class="description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus natus adipisci dolore voluptates ipsum atque similique veritatis.
+                            Estudie autonomo html,css. con un canal de youtube (soy dalto).
                         </td>
                     </tr>
                     <tr>
@@ -192,10 +184,10 @@
                 <table>
                     <tr>
                         <td class="datos">
-                            <h3>1 Año</h3>
+                            <h3>4 meses</h3>
                         </td>
                         <td rowspan="2" class="description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus natus adipisci dolore voluptates ipsum atque similique veritatis.
+                            constuyendo la interfas/maketacion de una pagina web para un restaurante campestre. 
                         </td>
                     </tr>
                     <tr>
@@ -205,22 +197,7 @@
                         </td>
                     </tr>
                 </table>
-                <table>
-                    <tr>
-                        <td class="datos">
-                            <h3>5 Meses </h3>
-                        </td>
-                        <td rowspan="2" class="description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus natus adipisci dolore voluptates ipsum atque similique veritatis.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <h4>Estudio Pagina Restaurante</h4>
-                            <p>Autonomo</p>
-                        </td>
-                    </tr>
-                </table>
+                
             </div>
         </div>
     </div>
@@ -235,7 +212,7 @@
         <div class="fila">
             <div class="col">
                 <h2>
-                    <i class="fa-solid fa-phone"></i> Telefono
+                <a href=""><i class="fa-solid fa-phone"></i> Telefono</a> 
                 </h2>
                 <span class="info-contacto">+57-3107729036</span>
             </div>
