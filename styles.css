@@ -83,6 +83,7 @@ html{
 }
 .inicio .contenido-seccion .info h2{
     font-weight: normal;
+    text-transform: uppercase;
     font-size: 20px;
     margin-top: -10px;
     letter-spacing: 2px;
@@ -305,9 +306,9 @@ html{
 }
 .contacto .contenido-seccion .fila .col:hover{
     color: #fff;
-    background-color: #940253;
+    background-color: gray;
     box-shadow: 0 0 20px #fff;
 }
 .contacto .contenido-seccion .fila .col h2{
-    color: #615d5f;
+    color: #940253;
 }
