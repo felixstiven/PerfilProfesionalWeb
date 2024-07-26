@@ -312,3 +312,38 @@ html{
 .contacto .contenido-seccion .fila .col h2{
     color: #940253;
 }
+
+@media(max-width:555px){
+    .resumen{
+        width: 100%;
+    }
+    .resumen .contenido-seccion .info{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .resumen .contenido-seccion .info .col{
+        width: auto;
+        margin-top: 25px;
+    }
+    .resumen .contenido-seccion .info .col .titulo{
+        text-align: center;
+    }
+    .resumen .contenido-seccion .info .col table .datos{
+        margin-right: 10px;
+        width: 180px;
+    }
+
+.contacto .fila{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacto .fila .col{
+    width: 200px;
+}
+}
