@@ -201,22 +201,42 @@ html{
     width: 47%;
     text-align: left;
 }
-.habilidades .contenido-seccion .fila .col .cont-barra{
+.habilidades .contenido-seccion .fila .title-prog{
+    margin-left: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.habilidades .contenido-seccion .progress{
+    --progress: 0%;
     display: flex;
     align-items: center;
-}
-.habilidades .contenido-seccion .barra{
-    display: flex;
+    width: 400px;
+    height: 70px;
     border: 1px solid #940253;
-    padding: 2px;
-    border-radius: 3px;
-    margin-right: 10px;
+    margin-top: 10px;
+    box-shadow: 0 0 0 1px #aaa;
+    padding: 3px;
 }
-.habilidades .contenido-seccion .barra .e{
-    background-color: #363636;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
+.habilidades .contenido-seccion  .barra{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+}
+
+.habilidades .contenido-seccion  .barra #txthtml{
+    margin-bottom: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.habilidades .contenido-seccion .barra .progress-value{
+    flex-direction: row-reverse;
+    width: var(--progress);
+    height: 100%;
+    background: linear-gradient(to bottom, blue,#c875,gold);
+    box-shadow: 0 0 10px 2px blue ;
+    transition: width 0.5s;
 }
 
 /* SECCION RESUMEN*/
