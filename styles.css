@@ -225,10 +225,11 @@ html{
     width: 100%;
 }
 
-.habilidades .contenido-seccion  .barra #txthtml{
+.habilidades .contenido-seccion  .barra .txt-title{
     margin-bottom: 10px;
     font-size: 22px;
     font-weight: bold;
+    cursor: pointer;
 }
 .habilidades .contenido-seccion .barra .progress-value{
     flex-direction: row-reverse;
@@ -237,6 +238,7 @@ html{
     background: linear-gradient(to bottom, blue,#c875,gold);
     box-shadow: 0 0 10px 2px blue ;
     transition: width 0.5s;
+    cursor: pointer;
 }
 
 /* SECCION RESUMEN*/
